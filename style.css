@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+.page1-container{
+    width: 471px;
+    height: 258px;
+    top: 8%;
+    left: 35%;
+    margin: 5% 0px 20px 0px;
+    background-color: #fcebeb;
+    position: relative;
+    box-shadow: 0 2px 3px 1px rgb(184, 181, 181);
+
+
+    
+}
+
+.tatup-logo-container{
+    display: flex;
+}
+
+.tatup-logo{
+    position: absolute;
+    width: 162.5px;
+    height: 142;
+    top: 11%;
+    left: 10%;
+}
+
+.tatup-para{
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    position: absolute;
+    bottom: 20%;
+    left: 3%;
+}
+
+.deposit-field{
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    font-family: 'roboto';
+    color: #ff4848;
+    /* line-height: 70px; */
+    
+}
+
+.deposit-card{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 71.09px;
+    margin-top: 10px;
+    width: max-content;
+}
+
+.amount{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.contact{
+    width: max-content;
+    display: flex;
+    top: 10%;
+    margin-left: 40%;
+    margin-top: 25%;
+
+}
+
+.phone-no{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.web-add-field{
+    width: 471px;
+    height: 31px;
+    position: absolute;
+    background-color: #ff1515;
+    top: 227px;
+    left: 0px;
+    padding: 5px;
+    box-shadow: 0 2px 3px 1px rgb(184, 181, 181);
+
+}
+
+.website{
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    margin-left: 30%;
+    padding: 5px;
+    letter-spacing: 1px;
+
+}
+
+/* page 2 container */
+
+.page2-container{
+    width: 471px;
+    height: 258px;
+    left: 35%;
+    top: 0px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 2px 3px 1px rgb(184, 181, 181);
+    margin-bottom: 30px;
+
+    
+}
+
+.pin-rectangle{
+    width: 382px;
+    height: 59px;
+    left: 29px;
+    top: 14px;
+    position: absolute;
+    background-color: #32a2e1;
+
+}
+/* pin */
+.pin{
+    color: white;
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.inside-rectgl{
+    width: 229px;
+    height: 38px;
+    top: 15px;
+    left: 80px;
+    background-color: white;
+    position: absolute;
+}
+
+.slant-shape{
+    content: "";
+    width: 40px;
+    height: 59px;
+    background-color: white;
+    position: absolute;
+    left: 390px;
+    top: 14px;
+    transform: skewX(-35deg);
+    -webkit-transform: skewX(-35deg);
+    -moz-transform: skewX(-35deg);
+    -ms-transform: skewX(-35deg);
+    -o-transform: skewX(-35deg);
+}
+
+.tatup-small-logo{
+    position: absolute;
+    width: 50.5px;
+    height: 46px;
+    top: 25px;
+    left: 400px;
+
+}
+
+.page2-contents{
+    position: absolute;
+    color: black;
+    font-family: 'roboto';
+    font-style: normal;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+
+.para1{
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.para2{
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+#sm-bold{
+    font-weight: 500;
+}
+
+.para3{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+#boldn{
+    font-weight: 800;
+}
+
+.amount2{
+    font-weight: 800;
+    font-size: 35px;
+    margin-top: -3px;
+}
+
+.line1{
+    width: 471.5px;
+    height: 50px;
+    top: 0px;
+    background-color:none;
+    position: absolute;
+    border: 2px solid #aaa6a6;
+    border-left-style: none;
+    border-right-style: none;
+    top: 195px;
+    left: -1px;
+}
+
+.card-numbrs{
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 1px;
+    line-height: 20px;
+
+}
+
+.bar-code{
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    top: 20px;
+    left: 349px;
+}
+
+
+
